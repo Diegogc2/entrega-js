@@ -57,4 +57,5 @@ const aplicarDescuento = (totalCompra) => {
     const descuento = totalCompra >= 5000 ? 0.80 : 1;
     return totalCompra * descuento;
 };
+
 comprarComida();
